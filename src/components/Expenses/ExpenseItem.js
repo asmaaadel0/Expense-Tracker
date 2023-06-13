@@ -9,7 +9,7 @@ const ExpenseItem = props => {
 
     // let title = props.title
     const clickHandler = () => {
-        setTitle('pdated!')
+        setTitle('Updated!')
     }
     return ( <
         Card className = 'expense-item' >
