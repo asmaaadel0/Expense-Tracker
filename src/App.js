@@ -32,10 +32,12 @@ const App = () => {
   //   React.createElement('h2', {}, "Let's get started!"),
   //   React.createElement(Expenses, { items: expenses })
   // );
-
+  const addNewExpense = expenseData => {
+    console.log(expenseData)
+  }
   return (
     <div>
-      <NewExpense />
+      <NewExpense onAddNewExpense={addNewExpense} />{' '}
       <Expenses items={expenses} />{' '}
     </div>
   )
