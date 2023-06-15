@@ -2,7 +2,7 @@
 
 - [About <a name = "about"></a>](#about-)
 - [website description <a name = "website-description"></a>](#website-description-)
-- [How to Use <a name = "project-setup"></a>](#project-setup-)
+- [How to Use <a name = "How-to-Use"></a>](#How-to-Use-)
 - [Website link <a name = "link"></a>](#website-link-)
 - [vedio <a name = "vedio"></a>](#vedio-)
 - [Contributors <a name = "Contributors"></a>](#contributors-)
@@ -17,7 +17,7 @@
 - Expense Chart: Gain insights into your spending habits with the interactive expense chart. Visualize your expenses over time, allowing you to identify trends and make informed financial decisions.
 - Detailed Expense View: Access a comprehensive view of each expense, including the date, title, and amount. This allows for easy reference and review of past spending records.
 
-## How to Use <a name = "project-setup"></a>
+## How to Use <a name = "How-to-Use"></a>
 
 - Clone the repository: `git clone https://github.com/your-username/expense-tracker.git`
 - Install dependencies: `npm install`
