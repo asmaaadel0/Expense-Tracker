@@ -11,7 +11,8 @@ const Expenses = props => {
     const [year, setYear] = useState('2020')
 
     const filteredDate = props.items.filter(item => {
-        return item.date.getFullYear().toString() === year
+        const date = new Date(item.date)
+        return date.getFullYear().toString() === year
     })
 
     const filterYear = year => {
