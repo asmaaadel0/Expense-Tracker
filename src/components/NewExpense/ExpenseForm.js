@@ -42,7 +42,7 @@ const ExpenseForm = props => {
         const userInput = {
             title: enteredTitle,
             date: enteredDate,
-            amount: enteredAmount
+            amount: +enteredAmount
         }
         props.onSaveExpenseData(userInput)
         setEnteredTitle('')
@@ -70,8 +70,8 @@ const ExpenseForm = props => {
             input type = 'text'
             value = { enteredTitle }
             onChange = { titleChangeHandler }
-            />{' '} <
-            /div>{' '} <
+            />{' '} < /
+            div > { ' ' } <
             div className = 'new-expense__control' >
             <
             label > Amount < /label>{' '} <
@@ -80,8 +80,8 @@ const ExpenseForm = props => {
             step = { 0.01 }
             value = { enteredAmount }
             onChange = { amountChangeHandler }
-            />{' '} <
-            /div>{' '} <
+            />{' '} < /
+            div > { ' ' } <
             div className = 'new-expense__control' >
             <
             label > Date < /label>{' '} <
@@ -90,8 +90,8 @@ const ExpenseForm = props => {
             max = '2022-12-31'
             value = { enteredDate }
             onChange = { dateChangeHandler }
-            />{' '} <
-            /div>{' '} <
+            />{' '} < /
+            div > { ' ' } <
             /div>{' '} <
             div className = 'new-expense__actions' >
             <
@@ -99,8 +99,8 @@ const ExpenseForm = props => {
             onClick = { triggerHandler } > { ' ' }
             Cancel { ' ' } <
             /button>{' '} <
-            button type = 'submit' > Add Expense < /button>{' '} <
-            /div>{' '} <
+            button type = 'submit' > Add Expense < /button>{' '} < /
+            div > { ' ' } <
             /form>
         )
     }
