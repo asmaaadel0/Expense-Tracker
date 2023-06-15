@@ -17,7 +17,7 @@
 - Expense Chart: Gain insights into your spending habits with the interactive expense chart. Visualize your expenses over time, allowing you to identify trends and make informed financial decisions.
 - Detailed Expense View: Access a comprehensive view of each expense, including the date, title, and amount. This allows for easy reference and review of past spending records.
 
-## How to Use <a name = "Project-setup"></a>
+## How to Use <a name = "project-setup"></a>
 
 - Clone the repository: `git clone https://github.com/your-username/expense-tracker.git`
 - Install dependencies: `npm install`
@@ -27,6 +27,10 @@
 ## Website link <a name = "link"></a>
 - https://expense-tracker-theta-eight.vercel.app/
 ## vedio <a name = "vedio"></a>
+
+
+https://github.com/asmaaadel0/Expense-Tracker/assets/88618793/2913768b-a4da-4774-94c9-4fbcbd569460
+
 
 <!-- ## License <a name = "License"></a> -->
 <!-- - Expense Tracker is open source and released under the MIT License. -->
