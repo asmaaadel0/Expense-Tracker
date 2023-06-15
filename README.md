@@ -2,7 +2,7 @@
 
 - [About <a name = "about"></a>](#about-)
 - [website description <a name = "website-description"></a>](#website-description-)
-- [How to Use <a name = "Project-setup"></a>](#project-setup-)
+- [How to Use <a name = "project-setup"></a>](#project-setup-)
 - [Website link <a name = "link"></a>](#website-link-)
 - [vedio <a name = "vedio"></a>](#vedio-)
 - [Contributors <a name = "Contributors"></a>](#contributors-)
