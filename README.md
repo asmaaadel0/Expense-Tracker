@@ -6,9 +6,8 @@
 - [Compiles and hot-reloads for development <a name = "Compiles-and-hot-reloads-for-development"></a>](#compiles-and-hot-reloads-for-development-)
 - [Website link <a name = "link"></a>](#website-link-)
 - [vedio <a name = "vedio"></a>](#vedio-)
-<!---  [License <a name = "License"></a>](#License-) -->
 - [Contributors <a name = "Contributors"></a>](#contributors-)
-
+<!---  [License <a name = "License"></a>](#License-) -->
 ## About <a name = "about"></a>
 - Expense Tracker is a web application built with React that helps you track and manage your expenses. 
 - With this app, you can easily add new expenses, view charts showcasing your expenses throughout the year, and keep track of important details such as dates, titles, and amounts for each expense.
