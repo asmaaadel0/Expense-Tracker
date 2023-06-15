@@ -17,12 +17,11 @@ const Expenses = props => {
     const filterYear = year => {
         setYear(year)
     }
-    return ( <
-        Card className = 'expenses' >
-        <
-        ExpensesFilter selected = { year }
-        onFilterYear = { filterYear }
-        /> {''}{' '} {
+
+    let content = < p > No expense found. < /p>
+    if (filteredDate.length > 0) {
+        content =
+            filteredDate.length > 0 &&
             filteredDate.map(expense => ( <
                 ExpenseItem key = { expense.id }
                 title = { expense.title }
@@ -30,7 +29,13 @@ const Expenses = props => {
                 date = { expense.date }
                 />
             ))
-        } { ' ' } <
+    }
+    return ( <
+        Card className = 'expenses' >
+        <
+        ExpensesFilter selected = { year }
+        onFilterYear = { filterYear }
+        /> {''}{' '} { content } { ' ' } <
         /Card>
     )
 }
